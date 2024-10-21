@@ -1,0 +1,41 @@
+Body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(230, 217, 236);
+  font-family: "Manrope", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.diplay-post {
+  color: #333333;
+  border: 1rem #e1e1e1;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: rgb(244, 234, 249);
+  color: #5f33e1;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  font-size: medium;
+  font-family: "Manrope", sans-serif;
+  transition: background-color 700ms ease, color 700ms ease;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(244, 226, 255);
+  color: #4208f1;
+}

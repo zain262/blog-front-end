@@ -1,0 +1,46 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  color: rgb(115, 114, 114);
+  gap: 1 rem;
+  height: 100vh;
+  background-color: #e8e5e5;
+}
+
+.input-field {
+  border: solid #6c63ff 1px;
+  border-radius: 5px;
+  font-family: "Kanit", sans-serif;
+  color: rgb(153, 153, 153);
+  padding: 8px;
+  transition: border-color 1s ease, box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+  border: solid #4c43e0 2px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 8px rgba(108, 99, 255, 0.5);
+}
+
+.login-button-class {
+  margin: 1rem;
+  background-color: #6c63ff;
+  color: white;
+  font-size: 0.8rem;
+  border: solid #6c63ff 5px;
+  border-radius: 10px;
+  transition: background-color 1s ease, border 1s ease;
+  cursor: pointer;
+}
+
+.login-button-class:hover {
+  background-color: white;
+  color: #6c63ff;
+  border: solid white 5px;
+  border-radius: 10px;
+}

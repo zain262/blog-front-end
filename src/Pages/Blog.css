@@ -1,0 +1,14 @@
+button {
+  background-color: rgb(244, 234, 249);
+  color: #5f33e1;
+  border-radius: 1rem;
+  font-size: medium;
+  font-family: "Manrope", sans-serif;
+  transition: background-color 700ms ease, color 700ms ease;
+  border: #5f33e1 2px solid;
+}
+
+button:hover {
+  background-color: rgb(234, 209, 250);
+  color: #4208f1;
+}

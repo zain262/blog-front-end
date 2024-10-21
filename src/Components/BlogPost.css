@@ -1,0 +1,16 @@
+.post {
+  background-color: rgb(244, 234, 249);
+  color: #5f33e1;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: background-color 700ms ease, color 700ms ease,
+    text-decoration 700ms ease, box-shadow 700ms ease;
+}
+
+.post:hover {
+  background-color: rgb(244, 226, 255);
+  color: #4208f1;
+  text-decoration: underline;
+  box-shadow: 0 4px 15px rgb(194, 187, 187);
+}
